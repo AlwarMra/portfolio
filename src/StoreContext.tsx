@@ -8,7 +8,7 @@ enum THEME {
 
 type IContext = {
   THEME: typeof THEME
-  theme?: string
+  theme: string
   toggleTheme?: () => void
 }
 
