@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import Layout from './components/Layout'
 import Menu from './components/Menu'
 import StoreContext from './StoreContext'
-import Project from './components/Project'
+import ProjectCard from './components/ProjectCard'
 
 function App() {
   const { theme } = useContext(StoreContext)
@@ -26,7 +26,10 @@ function App() {
 
         <div className='w-full relative lg:px-6 lg:border-l lg:border-slate-300'>
           <h2 className='font-bold text-2xl mb-8'>Projects</h2>
-          <Project />
+          <div className='grid grid-cols-2 gap-8'>
+            <ProjectCard />
+            <ProjectCard />
+          </div>
         </div>
       </Layout>
     </div>

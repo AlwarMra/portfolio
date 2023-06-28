@@ -6,7 +6,7 @@ import { useContext } from 'react'
 import StoreContext from '../StoreContext'
 import SkillPill from './SkillPill'
 
-const Project = () => {
+const ProjectCard = () => {
   const { theme, THEME } = useContext(StoreContext)
   return (
     <div className='group mt-1 mb-10'>
@@ -51,4 +51,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default ProjectCard
