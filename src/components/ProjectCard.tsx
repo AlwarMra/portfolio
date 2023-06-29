@@ -25,7 +25,8 @@ const Project = ({ project }: { project: IProject }) => {
           <div className='relative pb-[45%]'>
             <img
               src={project.img}
-              alt=''
+              alt={project.title + ' web screenshot'}
+              loading='lazy'
               className='inline-block absolute w-full h-full object-cover object-top border border-b-[6px] rounded-xl transition duration-300  bg-white border-slate-300 group-hover:border-slate-400 shadow-md dark:group-hover:border-slate-500'
             />
           </div>
