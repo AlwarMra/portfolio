@@ -26,10 +26,8 @@ function App() {
 
         <div className='w-full relative lg:px-6 lg:border-l lg:border-slate-300'>
           <h2 className='font-bold text-2xl mb-8'>Projects</h2>
-          <div className='grid grid-cols-2 gap-8'>
-            <ProjectCard />
-            <ProjectCard />
-          </div>
+          <ProjectCard />
+          <ProjectCard />
         </div>
       </Layout>
     </div>

@@ -6,8 +6,8 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <section className='w-full bg-white overflow-hidden selection:bg-slate-800 selection:text-white lg:p-8 lg:h-screen dark:bg-slate-800 dark:selection:bg-slate-300 dark:selection:text-slate-800 dark:text-slate-300'>
-      <div className='h-full min-h bg-transparent rounded-3xl p-8 overflow-visible border-slate-300 backdrop-blur-lg lg:border'>
+    <section className='w-full bg-white overflow-hidden selection:bg-slate-800 selection:text-white lg:p-6 lg:h-screen dark:bg-slate-800 dark:selection:bg-slate-300 dark:selection:text-slate-800 dark:text-slate-300'>
+      <div className='h-full min-h bg-transparent rounded-3xl p-6 overflow-visible border-slate-300 backdrop-blur-lg lg:border'>
         <div className='w-full h-full min-h-full m-0 overflow-auto'>
           <div className='lg:grid grid-cols-custom gap-y-4 place-items-start'>
             {children}

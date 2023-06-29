@@ -13,14 +13,14 @@ const ResumeIcon = () => {
       <g
         id='IconifyId18837aa66d28facf51106'
         fill='none'
-        fill-rule='evenodd'
+        fillRule='evenodd'
         stroke='none'
         stroke-width='1'
       >
         <g
           id='IconifyId18837aa66d28facf51107'
           fill='currentColor'
-          fill-rule='nonzero'
+          fillRule='nonzero'
         >
           <path
             id='IconifyId18837aa66d28facf51108'
