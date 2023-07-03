@@ -3,7 +3,7 @@ import Layout from './components/Layout'
 import Menu from './components/Menu'
 import StoreContext from './StoreContext'
 import ProjectCard from './components/ProjectCard'
-import { projects } from './projects'
+import { projects } from './data/projects'
 
 function App() {
   const { theme } = useContext(StoreContext)

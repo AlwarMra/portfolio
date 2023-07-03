@@ -2,7 +2,7 @@ import mantis_img from './assets/mantis_ssg.png'
 import odas_img from './assets/odas_img.png'
 import political_img from './assets/political_img.png'
 
-import { IProject } from './types'
+import { IProject } from '../types'
 
 export const projects: IProject[] = [
   {
