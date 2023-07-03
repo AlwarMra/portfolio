@@ -1,4 +1,4 @@
-import { GithubIcon, WatchIcon } from './Icons'
+import { GithubIcon, WatchIcon } from 'src/components/Icons'
 
 type IProjectButton = {
   link: string

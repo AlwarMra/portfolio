@@ -1,4 +1,4 @@
-import img from '../assets/bird.png'
+import img from 'src/assets/bird.png'
 
 type LayoutProps = {
   children: React.ReactNode

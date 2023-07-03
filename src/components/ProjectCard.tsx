@@ -1,8 +1,8 @@
 import { useContext } from 'react'
-import StoreContext from '../StoreContext'
-import SkillPill from './SkillPill'
-import ProjectButton from './ProjectButton'
-import { IProject } from '../types'
+import StoreContext from 'src/StoreContext'
+import SkillPill from 'src/components/SkillPill'
+import ProjectButton from 'src/components/ProjectButton'
+import { IProject } from 'src/types'
 
 const Project = ({ project }: { project: IProject }) => {
   const { theme, THEME } = useContext(StoreContext)

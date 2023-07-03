@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import StoreContext from '../StoreContext'
+import StoreContext from 'src/StoreContext'
 import { Link } from 'wouter'
 import { DarkIcon, DayIcon } from './Icons'
 
