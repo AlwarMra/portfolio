@@ -144,6 +144,10 @@ export const resources: IListResource[] = [
         name: 'Cloudfare Radar',
         url: 'https://radar.cloudflare.com/',
       },
+      {
+        name: 'NPM',
+        url: 'https://www.npmjs.com/',
+      },
     ],
   },
 ]
