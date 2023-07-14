@@ -14,7 +14,7 @@ const Layout = ({ children }: LayoutProps) => {
             <img
               src={img}
               loading='lazy'
-              className='h-[38vh] fixed bottom-0 opacity-60'
+              className='h-[32vh] fixed bottom-0 opacity-60'
             />
           </div>
         </div>

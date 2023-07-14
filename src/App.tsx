@@ -3,12 +3,13 @@ import { Route, Switch } from 'wouter'
 import { projects } from 'src/data/projects'
 import StoreContext from 'src/StoreContext'
 //Pages
-import Home from 'src/components/Home'
-import Resources from 'src/components/Resources'
+import Home from 'src/pages/Home'
+import Resources from 'src/pages/Resources'
 //Components
 import Layout from 'src/components/Layout'
 import Menu from 'src/components/Menu'
 import NotFound from './components/NotFound'
+import Skills from './components/Skills'
 
 function App() {
   const { theme } = useContext(StoreContext)
@@ -30,6 +31,7 @@ function App() {
             molestias facere, sequi accusamus porro consequuntur magnam
             inventore fuga autem cum excepturi.
           </p>
+          <Skills />
         </div>
         <Switch>
           <Route path='/' component={Home} />

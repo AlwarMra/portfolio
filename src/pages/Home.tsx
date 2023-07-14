@@ -1,4 +1,3 @@
-import Menu from 'src/components/Menu'
 import ProjectCard from 'src/components/ProjectCard'
 import { projects } from 'src/data/projects'
 
